@@ -10,5 +10,23 @@
         "date": "2023-10-05",
         "summary": "React高级开发课程将于下月开课，限时报名...",
         "image": "images/training.jpg"
-    }
+    },
+    {
+    "title": "季度技术成果展示",
+    "date": "2023-11-01",
+    "summary": "第三季度AI研发成果与专利申报汇总...",
+    "image": "assets/images/tech-showcase.jpg"
+  },
+  {
+    "title": "开发者大会报名启动",
+    "date": "2023-11-05",
+    "summary": "年度技术峰会将于12月举行，点击查看议程...",
+    "image": "assets/images/conference.jpg"
+  },
+  {
+    "title": "新成员入职公告",
+    "date": "2023-11-10",
+    "summary": "欢迎15位新同事加入研发团队...",
+    "image": "assets/images/team.jpg"
+  }
 ]
