@@ -16,8 +16,10 @@ body {
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-    margin: 2rem;
-    padding: 2rem;
+    margin: 0 auto;      /* 移除上下margin */
+    padding: 1rem 2rem;  /* 减少内边距 */
+    position: relative;  /* 新增定位控制 */
+    top: -40px;          /* 整体上移40像素 */
 }
 
 /* 全息LOGO效果 */
