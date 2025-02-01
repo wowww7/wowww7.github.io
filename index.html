@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>部门新闻中心</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <img src="images/logo.png" alt="部门logo" class="logo">
+        <h1>技术发展部新闻中心</h1>
+    </header>
+
+    <!-- 新闻列表容器 -->
+    <main class="news-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="输入关键词搜索新闻...">
+            <button onclick="searchNews()">搜索</button>
+        </div>
+        <div id="newsList" class="news-list"></div>
+    </main>
+
+    <!-- 加载脚本 -->
+    <script src="js/script.js"></script>
+</body>
+</html>
